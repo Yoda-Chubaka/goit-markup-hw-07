@@ -1,0 +1,46 @@
+.advantages {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advantages-paragraph {
+    color: var(--link-address-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    width: 270px;
+}
+
+.flex-benefit {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.benefit-card {
+    flex-basis: ((100% - 3*30) / 3);
+}
+
+.benefit-card:not(:last-child) {
+    margin-right: 30px;
+}
+
+.benefit-container {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: var(--section-color);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit-icon {
+    width: 70px;
+    height: 70px;
+}

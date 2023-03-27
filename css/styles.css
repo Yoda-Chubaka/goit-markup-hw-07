@@ -42,24 +42,24 @@ img {
 
 /* START header */
 
-.container {
+/* .container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-}
+} */
 
-.section {
+/* .section {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
-.flex-items {
+/* .flex-items {
     display: flex;
-}
+} */
 
-header .container {
+/* header .container {
     display: flex;
     align-items: center;
 }
@@ -190,13 +190,13 @@ header .container {
 .link-address:hover,
 .link-address:focus {
     color: var(--link-color);
-}
+} */
 
 /* END header */
 
 /* START index.html */
 
-.hero-section {
+/* .hero-section {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-section-image.jpg);
     background-color: var(--background-color-image);
     background-size: cover;
@@ -242,7 +242,7 @@ header .container {
 .hero-button:focus {
     background-color: var(--active-button-color);
     cursor: pointer;
-}
+} */
 
 /* .visually-hidden {
     position: absolute;
@@ -255,7 +255,7 @@ header .container {
     clip: rect(0 0 0 0);
 } */
 
-.advantages {
+/* .advantages {
     margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -300,9 +300,9 @@ header .container {
 .benefit-icon {
     width: 70px;
     height: 70px;
-}
+} */
 
-.our-work {
+/* .our-work {
     padding-bottom: 94px;
 }
 
@@ -312,9 +312,9 @@ header .container {
 
 .work:not(:last-child) {
     margin-right: 30px;
-}
+} */
 
-.worker-list {
+/* .worker-list {
     flex-basis: ((100% - 4*30) / 4);
     width: 270px;
 }
@@ -411,7 +411,7 @@ header .container {
     width: 20px;
     height: 20px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 
 .box-clients {
@@ -681,7 +681,6 @@ header .container {
     opacity: 1;
     width: 528px;
     height: 581px;
-    /* padding: 40px; */
     background-color: var(--primary-background-color);
     border-radius: 4px;
     transform: scale(1), opacity(1);
@@ -712,7 +711,7 @@ header .container {
 
 /* START Section "Our work" positioning*/
 
-.product-thumb {
+/* .product-thumb {
     position: relative;
 }
 
@@ -733,7 +732,7 @@ header .container {
     text-transform: uppercase;
     color: var(--primary-background-color);
     background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* END Section "Our work" positioning*/
 
