@@ -14,6 +14,17 @@
   --social-network-color: #AFB1B8;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: var(--primary-color);
@@ -41,4 +52,12 @@ p {
 
 img {
   display: block;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }/*# sourceMappingURL=main.css.map */
