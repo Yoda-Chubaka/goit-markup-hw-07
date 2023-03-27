@@ -38,10 +38,10 @@
     line-height: 1.88;
     letter-spacing: 0.06em;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.hero-button:hover,
-.hero-button:focus {
-    background-color: var(--active-button-color);
-    cursor: pointer;
+    &:hover,
+    &:focus {
+        background-color: var(--active-button-color);
+        cursor: pointer;
+    }
 }
