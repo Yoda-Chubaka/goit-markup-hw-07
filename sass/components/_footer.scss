@@ -8,6 +8,12 @@
     padding-bottom: 60px;
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
 .footer-link {
     font-style: normal;
     font-weight: 400;
@@ -37,12 +43,6 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.footer-container {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-around;
 }
 
 .footer-right-part {
