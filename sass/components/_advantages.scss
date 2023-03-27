@@ -24,10 +24,10 @@
 
 .benefit-card {
     flex-basis: ((100% - 3*30) / 3);
-}
 
-.benefit-card:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .benefit-container {
