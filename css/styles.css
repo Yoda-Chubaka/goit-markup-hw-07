@@ -1,4 +1,4 @@
-/* :root {
+:root {
 --primary-color: #212121;
 --link-address-color: #757575;
 --link-color: #2196F3;
@@ -12,9 +12,9 @@
 --header-border-color: #ECECEC;
 --background-color-image: #C4C4C4;
 --social-network-color: #AFB1B8;
-} */
+}
 
-/* body {
+body {
 font-family: Roboto, sans-serif;
 color: var(--primary-color);
 background-color: var(--primary-background-color);
@@ -38,28 +38,28 @@ h1, h2, h3, p {
 
 img {
     display: block;
-} */
+}
 
 /* START header */
 
-/* .container {
+.container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-} */
+}
 
-/* .section {
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
-} */
+}
 
-/* .flex-items {
+.flex-items {
     display: flex;
-} */
+}
 
-/* header .container {
+header .container {
     display: flex;
     align-items: center;
 }
@@ -190,7 +190,7 @@ img {
 .link-address:hover,
 .link-address:focus {
     color: var(--link-color);
-} */
+}
 
 /* END header */
 
@@ -414,7 +414,7 @@ img {
 } */
 
 
-.box-clients {
+/* .box-clients {
     justify-content: space-between;
     align-items: center;
 }
@@ -465,7 +465,7 @@ img {
 .link-company:hover .client-icon,
 .link-company:focus .client-icon {
     fill: var(--link-color);
-}
+} */
 
 /* END index.html */
 
@@ -559,7 +559,7 @@ img {
 
 /* START footer */
 
-.logo-third-part {
+/* .logo-third-part {
     color: var(--primary-background-color);
 }
 
@@ -647,13 +647,13 @@ img {
     height: 20px;
     fill: var(--primary-background-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* END footer */
 
 /* Start Modal Button */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -667,9 +667,9 @@ img {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
+} */
 
-.backdrop.is-hidden .modal {
+/* .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.7);
 }
 
@@ -707,7 +707,7 @@ img {
 .modal-close-button:hover,
 .modal-close-button:focus .modal-close-icon {
     fill: var(--link-color);
-}
+} */
 
 /* START Section "Our work" positioning*/
 
@@ -771,7 +771,7 @@ img {
     color: var(--primary-background-color);
 }
 
-.contact-form-title {
+/* .contact-form-title {
     display: block;
     font-weight: 700;
     font-size: 20px;
@@ -919,11 +919,11 @@ img {
 .contact-form-submit-button:focus {
     background-color: var(--active-button-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* START FOOTER FORM */
 
-.footer-contain {
+/* .footer-contain {
     display: flex;
     align-items: end;
 }
@@ -1008,6 +1008,6 @@ img {
 .footer-button:hover,
 .footer-button:focus {
     background-color: var(--active-button-color);
-}
+} */
 
 /* END FOOTER FORM */
