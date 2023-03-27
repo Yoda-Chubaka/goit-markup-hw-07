@@ -888,7 +888,7 @@ header .container {
   margin-right: 30px;
 }
 
-.card-project:nth-child(3n) {
+.card-project:nth-child(-1) {
   margin-bottom: 0;
 }
 
