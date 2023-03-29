@@ -23,7 +23,7 @@
 }
 
 .benefit-card {
-    flex-basis: ((100% - 3*30px) / 3);
+    flex-basis: calc((100% - 3*30px) / 3);
 
     &:not(:last-child) {
         margin-right: 30px;

@@ -1,5 +1,5 @@
 .worker-list {
-    flex-basis: ((100% - 4*30px) / 4);
+    flex-basis: calc((100% - 4*30px) / 4);
     width: 270px;
 
     &:not(:last-child) {
