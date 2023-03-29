@@ -150,15 +150,6 @@ img {
   background-color: var(--link-color);
 }
 
-.description-link {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .list-address {
   display: -webkit-box;
   display: -ms-flexbox;
