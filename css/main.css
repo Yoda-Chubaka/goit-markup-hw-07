@@ -214,7 +214,7 @@ img {
   margin-left: auto;
 }
 
-.hero-section {
+.hero {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-section-image.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-section-image.jpg);
   background-color: var(--background-color-image);
@@ -227,7 +227,7 @@ img {
   margin-right: auto;
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -240,7 +240,7 @@ img {
   text-transform: uppercase;
 }
 
-.hero-button {
+.hero__button {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 32px;
@@ -257,7 +257,7 @@ img {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-button:hover, .hero-button:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: var(--active-button-color);
   cursor: pointer;
 }
@@ -505,38 +505,20 @@ img {
 }
 
 .advantages {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.advantages-paragraph {
-  color: var(--link-address-color);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  width: 270px;
-}
-
-.flex-benefit {
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
-.benefit-card {
+.advantages__card {
   -ms-flex-preferred-size: calc((100% - 90px) / 3);
       flex-basis: calc((100% - 90px) / 3);
 }
-.benefit-card:not(:last-child) {
+.advantages__card:not(:last-child) {
   margin-right: 30px;
 }
 
-.benefit-container {
+.advantages__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -552,9 +534,28 @@ img {
           align-items: center;
 }
 
-.benefit-icon {
+.advantages__icon {
   width: 70px;
   height: 70px;
+}
+
+.advantages__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages__paragraph {
+  color: var(--link-address-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  width: 270px;
 }
 
 .our-work {
